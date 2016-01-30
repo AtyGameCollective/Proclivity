@@ -114,7 +114,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   poolSize: 10
   baseItemFrame: {fileID: 11422680, guid: d72806116c374c2428c2048c4c07ad34, type: 2}
-  itemDistance: 1
+  itemDistance: 24
+  ampl: {x: 3, y: 1.5}
+  turnSpeed: 4
 --- !u!4 &1659911330
 Transform:
   m_ObjectHideFlags: 0

@@ -21,6 +21,12 @@ public class ItemFrameScript : MonoBehaviour
 
     private SpriteRenderer actualBorder;
 
+    public int position { get; set; }
+
+    public float realPosition { get; set; }
+
+    public int destinyPosition { get; set; }
+
     [SerializeField]
     private Vector3 positon;
 

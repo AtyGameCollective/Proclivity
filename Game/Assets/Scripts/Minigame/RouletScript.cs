@@ -14,7 +14,15 @@ public class RouletScript : MonoBehaviour
     private ItemFrameScript baseItemFrame;
 
     [SerializeField]
-    private int itemDistance = 1;
+    private int itemDistance = 24;
+
+    [SerializeField]
+    private Vector2 ampl = new Vector2(3f, 1.5f);
+
+    [SerializeField]
+    private int turnSpeed = 2;
+
+    private int initialAngle = 60;
 
     private ItemFrameScript[] itemFrameList;
 
@@ -24,10 +32,21 @@ public class RouletScript : MonoBehaviour
 
     private int actualPool;
 
+    private Vector3 GetAngularPosition(float position)
+    {
+        Vector3 rPosition = Vector3.zero;
+
+        float angle = (position * (itemDistance * Mathf.Deg2Rad)) + initialAngle * Mathf.Deg2Rad;
+
+        rPosition.x = Mathf.Cos(angle) * ampl.x;
+        rPosition.y = Mathf.Sin(angle) * ampl.y;
+
+        return rPosition;
+    }
+
     // Use this for initialization
     void Start()
     {
-
         actualPool = poolSize;
 
         //---------------------
@@ -50,13 +69,14 @@ public class RouletScript : MonoBehaviour
 
         itemFrameList = new ItemFrameScript[actualPool];
 
-        int positionX = (actualPool / 2) * itemDistance;
-
         for (int i = 0; i < actualPool; i++)
         {
             ItemFrameScript newItemFrame = Instantiate(baseItemFrame);
-            newItemFrame.transform.position = new Vector3(positionX, 0, 0);
+            newItemFrame.transform.position = GetAngularPosition(i);
             newItemFrame.Button = (ItemFrameScript.buttons)(Random.value * 4);
+            newItemFrame.realPosition = actualPool;
+            newItemFrame.position = actualPool;
+            newItemFrame.destinyPosition = i;
 
             if (i == 0)
             {
@@ -72,8 +92,6 @@ public class RouletScript : MonoBehaviour
 
             itemFrameList[i] = newItemFrame;
 
-            positionX -= itemDistance;
-
         }
 
         nextItem = 1;
@@ -84,7 +102,26 @@ public class RouletScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Turn animation
+        foreach (var item in itemFrameList)
+        {
+            if (item != null)
+            {
 
+                if (item.position != item.destinyPosition)
+                {
+                    item.realPosition = Mathf.Lerp(item.realPosition, item.destinyPosition, Time.deltaTime * turnSpeed);
+
+                    if (item.realPosition <= item.destinyPosition)
+                    {
+                        item.position = item.destinyPosition;
+                        item.realPosition = item.position;
+                    }
+
+                    item.transform.position = GetAngularPosition(item.realPosition);
+                }
+            }
+        }
     }
 
     IEnumerator ActiveNext(ItemFrameScript item)
@@ -98,13 +135,12 @@ public class RouletScript : MonoBehaviour
     {
         ItemFrameScript lSender = (ItemFrameScript)sender;
 
-        Debug.Log("S: " + lSender.Item.Name);
-
         foreach (var item in itemFrameList)
         {
             if (item != null)
             {
-                item.transform.position = new Vector3(item.transform.position.x + itemDistance, 0, 0);
+                item.destinyPosition--;
+                //item.transform.position = GetAngularPosition(item.position);
                 item.IsActive = false;
             }
         }
@@ -113,7 +149,9 @@ public class RouletScript : MonoBehaviour
         {
             lSender.Item = itemList[nextPoolPosition];
             lSender.ChangeButton((ItemFrameScript.buttons)(Random.value * 4));
-            lSender.transform.position = new Vector3(-((poolSize / 2 - 1) * itemDistance), 0, 0);
+            lSender.destinyPosition = actualPool - 1;
+            lSender.position = actualPool - 1;
+            lSender.transform.position = GetAngularPosition(lSender.position);
             lSender.IsActive = false;
 
             nextPoolPosition++;
