@@ -45,7 +45,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\IconScript.cs" />
+     <Compile Include="Assets\Scripts\Minigame\Item.cs" />
+     <Compile Include="Assets\Scripts\Minigame\ItemFrameScript.cs" />
+     <Compile Include="Assets\Scripts\Minigame\RouletScript.cs" />
      <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
