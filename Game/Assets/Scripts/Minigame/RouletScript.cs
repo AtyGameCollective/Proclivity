@@ -31,8 +31,11 @@ public class RouletScript : MonoBehaviour
     [SerializeField]
     private int initialAngle = 60;
 
-    public delegate void onSpinEventHandler(RouletScript item, bool idOK);
-    public event onSpinEventHandler onSpin;
+    public delegate void boolReturnEventHandler(RouletScript item, bool isOK);
+
+    public event boolReturnEventHandler onSpin;
+
+    public event boolReturnEventHandler onEnd;
 
     private ItemFrameScript[] itemFrameList;
 
@@ -59,7 +62,7 @@ public class RouletScript : MonoBehaviour
     {
     }
 
-    void Awake()
+    public void LoadItens()
     {
         actualPool = poolSize;
 
@@ -216,7 +219,7 @@ public class RouletScript : MonoBehaviour
         }
         else
         {
-            //TODO: Finish Minigame
+            onEnd(this, true);
         }
 
         nextItem++;
