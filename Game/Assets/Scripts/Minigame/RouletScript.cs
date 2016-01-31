@@ -7,6 +7,12 @@ public class RouletScript : MonoBehaviour
     [SerializeField]
     private Item[] itemList;
 
+    public Item[] ItemList
+    {
+        get { return itemList; }
+        set { itemList = value; }
+    }
+
     [SerializeField]
     private int poolSize = 10;
 
@@ -24,6 +30,9 @@ public class RouletScript : MonoBehaviour
 
     [SerializeField]
     private int initialAngle = 60;
+
+    public delegate void onSpinEventHandler(RouletScript item, bool idOK);
+    public event onSpinEventHandler onSpin;
 
     private ItemFrameScript[] itemFrameList;
 
@@ -48,22 +57,11 @@ public class RouletScript : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+    }
+
+    void Awake()
+    {
         actualPool = poolSize;
-
-        //---------------------
-        //FAKE Itens
-        int fakeQuantity = 30;
-        itemList = new Item[fakeQuantity];
-        for (int i = 0; i < fakeQuantity; i++)
-        {
-            itemList[i] = new Item()
-            {
-                Name = i.ToString(),
-                ImageID = i
-            };
-        }
-
-        //--------------------
 
         if (itemList.Length < actualPool)
             actualPool = itemList.Length;
@@ -99,12 +97,14 @@ public class RouletScript : MonoBehaviour
 
         nextItem = 1;
         nextPoolPosition = actualPool;
-
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (itemFrameList == null)
+            return;
+
         //Turn animation
         foreach (var item in itemFrameList)
         {
@@ -136,8 +136,11 @@ public class RouletScript : MonoBehaviour
 
     void SpinRoulet(object sender, bool isOK)
     {
-        if(!isOK)
+        if (!isOK)
         {
+            if (onSpin != null)
+                onSpin(this, false);
+
             return;
         }
 
@@ -149,7 +152,6 @@ public class RouletScript : MonoBehaviour
             if (item != null)
             {
                 item.destinyPosition--;
-                //item.transform.position = GetAngularPosition(item.position);
                 item.IsActive = false;
             }
         }
@@ -169,6 +171,9 @@ public class RouletScript : MonoBehaviour
         {
             GameObject.Destroy(lSender.gameObject);
         }
+
+        if (onSpin != null)
+            onSpin(this, true);
 
         if (itemList.Length > nextItem)
         {
