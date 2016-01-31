@@ -2,3 +2,5 @@ Game/Library/AnnotationManager
 Game/Library/
 Game/Temp/
 Game/Assembly-CSharp.csproj
+Game/Builds/Windows_Data/globalgamemanagers
+Game/Builds/
