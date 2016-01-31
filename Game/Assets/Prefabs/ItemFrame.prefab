@@ -15,7 +15,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &180544
 GameObject:
   m_ObjectHideFlags: 0
@@ -40,7 +40,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 180544}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.2566676, y: 2.4382985, z: 0}
+  m_LocalPosition: {x: 5.835108, y: 3.3580596, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 438636}
@@ -77,6 +77,12 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 8a0fff78985ea214e91f891e953c6b99, type: 3}
   - {fileID: 21300000, guid: d6723d1ad3918ad4db7f51f1ba39c8d8, type: 3}
   - {fileID: 21300000, guid: 7c2e1634d2aacdf4a95f5852cc091811, type: 3}
+  Icons:
+  - {fileID: 21300000, guid: 71d94ca5d5c960245a3e0b9938aaa9b4, type: 3}
+  - {fileID: 21300000, guid: 2bf05f41d82c39a49a6498a68bc5860c, type: 3}
+  - {fileID: 21300000, guid: e84fd36fad5312a4ca9ab2c5dc21cf17, type: 3}
+  - {fileID: 21300000, guid: b0ea6d20b80dea84d8b608d341bc868d, type: 3}
+  Icon: {fileID: 21228356}
 --- !u!212 &21228356
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -102,8 +108,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6c9d0b358a4ae0242b1200bfa4668533, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -147,6 +153,18 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_LocalPosition.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Sprite
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

@@ -76,13 +76,16 @@ public class RouletScript : MonoBehaviour
             newItemFrame.realPosition = actualPool;
             newItemFrame.position = actualPool;
             newItemFrame.destinyPosition = i;
+            newItemFrame.ChangeIcon();
 
             if (i == 0)
             {
+                StartCoroutine("ActivateAnimation", newItemFrame);
                 newItemFrame.IsActive = true;
             }
             else
             {
+                newItemFrame.transform.localScale = new Vector3(1, 1, 0);
                 newItemFrame.IsActive = false;
             }
 
@@ -134,6 +137,35 @@ public class RouletScript : MonoBehaviour
 
     }
 
+    IEnumerator ActivateAnimation(ItemFrameScript item)
+    {
+        yield return null;
+
+        float time = 0;
+        float totalTime = 0.4f;
+
+        Vector3 startScale = item.transform.localScale;
+        Vector3 endScale = startScale * 2f;
+
+        while (time < totalTime && item.IsActive)
+        {
+            time += Time.deltaTime;
+            yield return null;
+            item.transform.localScale = Vector3.Lerp(startScale, endScale, time / totalTime);
+
+        }
+
+        if (item.IsActive)
+        {
+            item.transform.localScale = endScale;
+        }
+        else
+        {
+            item.transform.localScale = startScale;
+        }
+
+    }
+
     void SpinRoulet(object sender, bool isOK)
     {
         if (!isOK)
@@ -163,6 +195,8 @@ public class RouletScript : MonoBehaviour
             lSender.destinyPosition = actualPool - 1;
             lSender.position = actualPool - 1;
             lSender.transform.localPosition = GetAngularPosition(lSender.position);
+            lSender.ChangeIcon();
+            lSender.transform.localScale = new Vector3(1, 1, 0);
             lSender.IsActive = false;
 
             nextPoolPosition++;
@@ -177,6 +211,7 @@ public class RouletScript : MonoBehaviour
 
         if (itemList.Length > nextItem)
         {
+            StartCoroutine(ActivateAnimation(itemFrameList[nextItem % actualPool]));
             StartCoroutine(ActiveNext(itemFrameList[nextItem % actualPool]));
         }
         else
