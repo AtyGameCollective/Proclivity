@@ -5,9 +5,9 @@ using System.Collections;
 public class AlphaAnimation : MonoBehaviour {
 	SpriteRenderer sRenderer;
 
-	Color minColor = new Color(1,1,1,0.5f);
+	Color minColor = new Color(1,1,1,0.3f);
 	Color maxColor = Color.white;
-	float totalTime = 3.5f;
+	float totalTime = 3.0f;
 	bool update;
 	// Use this for initialization
 	void Awake() {
