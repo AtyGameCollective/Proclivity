@@ -44,6 +44,9 @@ public class MinigameScript : MonoBehaviour
     [SerializeField]
     private AudioSource looseSound;
 
+    [SerializeField]
+    private AudioSource bgSound;
+
     private float actualTime;
 
     private int itemsCount;
@@ -176,6 +179,12 @@ public class MinigameScript : MonoBehaviour
     {
         yield return null;
 
+        Finish();
+
+        bgSound.Stop();
+
+        victorySound.Play();
+
         float time = 0;
         float totalTime = 1f;
         
@@ -206,9 +215,6 @@ public class MinigameScript : MonoBehaviour
 
         coffeMessage.gameObject.SetActive(true);
 
-        victorySound.Play();
-
-        Finish();
     }
 
     IEnumerator vAnimation(GameObject gObject, float yFinal, float totalTime)
@@ -227,9 +233,12 @@ public class MinigameScript : MonoBehaviour
     {
         yield return null;
 
+        Finish();
+
+        bgSound.Stop();
+
         looseSound.Play();
 
-        Finish();
     }
 
 }

@@ -1392,6 +1392,7 @@ MonoBehaviour:
   rightSoud: {fileID: 2143568725}
   victorySound: {fileID: 347249977}
   looseSound: {fileID: 1777277676}
+  bgSound: {fileID: 881447158}
 --- !u!1 &1755574013
 GameObject:
   m_ObjectHideFlags: 0
