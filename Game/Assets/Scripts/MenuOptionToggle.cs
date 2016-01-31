@@ -45,7 +45,7 @@ public class MenuOptionToggle : MonoBehaviour, IPointerEnterHandler, ISelectHand
 	public void OnPointerClick (PointerEventData eventData)
 	{
 		Debug.Log ("Option Clicked " + name);
-		onClickEvent
+
 	}
 
 	#endregion
