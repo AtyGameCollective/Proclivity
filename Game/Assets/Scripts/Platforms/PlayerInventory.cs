@@ -12,6 +12,14 @@ public class PlayerInventory : MonoBehaviour {
 		itemsNeeded = ApplicationModel.CurrentLevel+2;
 	}
 
+    void Update()
+    {
+        if (Input.GetButtonDown("Cancel"))
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Splash");
+        }
+    }
+
 	public int ItemsCollectedCount{ get { return itemsCollected.Count; } }
 	public void ItemCollected(CollectableItem item)
 	{

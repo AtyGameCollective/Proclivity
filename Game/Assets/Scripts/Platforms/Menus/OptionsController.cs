@@ -12,6 +12,11 @@ public class OptionsController : MonoBehaviour {
 	float delay  = 1;
 	void Update()
 	{
+        if (Input.GetButtonDown("Cancel"))
+        {
+            Application.Quit();
+        }
+         
         if (creditScreen.gameObject.active)
             return;
 
