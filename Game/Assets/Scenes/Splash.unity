@@ -733,6 +733,7 @@ GameObject:
   - 114: {fileID: 767164288}
   - 114: {fileID: 767164287}
   - 114: {fileID: 767164290}
+  - 95: {fileID: 767164291}
   m_Layer: 5
   m_Name: Main Menu BG
   m_TagString: Untagged
@@ -760,7 +761,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -8.5, y: 58.09}
-  m_SizeDelta: {x: 1366, y: 643}
+  m_SizeDelta: {x: 428, y: 497}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &767164287
 MonoBehaviour:
@@ -786,14 +787,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.509}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: c25979d2d905d9942839cf1aa61c7c5a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 57f725cc26557ea43ae2ff4ad6a6e30d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -822,6 +823,23 @@ MonoBehaviour:
   - {fileID: 1748768884}
   - {fileID: 654577855}
   - {fileID: 957408517}
+--- !u!95 &767164291
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 767164285}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e332ef168084c9746aa7e0d900852ca5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &898364053
 GameObject:
   m_ObjectHideFlags: 0
