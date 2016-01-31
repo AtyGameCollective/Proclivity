@@ -352,7 +352,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!1 &1257285740
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,7 +619,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: c25979d2d905d9942839cf1aa61c7c5a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -635,7 +635,7 @@ Transform:
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!1 &1659911328
 GameObject:
   m_ObjectHideFlags: 0
@@ -694,6 +694,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1716933284}
+  - 114: {fileID: 1716933285}
   m_Layer: 0
   m_Name: Minigame
   m_TagString: Untagged
@@ -714,69 +715,23 @@ Transform:
   - {fileID: 1659911330}
   - {fileID: 1367450781}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
---- !u!1001 &2031435375
-Prefab:
+  m_RootOrder: 3
+--- !u!114 &1716933285
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 421474, guid: d72806116c374c2428c2048c4c07ad34, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 5.2566676
-      objectReference: {fileID: 0}
-    - target: {fileID: 421474, guid: d72806116c374c2428c2048c4c07ad34, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 2.4382985
-      objectReference: {fileID: 0}
-    - target: {fileID: 421474, guid: d72806116c374c2428c2048c4c07ad34, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 421474, guid: d72806116c374c2428c2048c4c07ad34, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 421474, guid: d72806116c374c2428c2048c4c07ad34, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 421474, guid: d72806116c374c2428c2048c4c07ad34, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 421474, guid: d72806116c374c2428c2048c4c07ad34, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 421474, guid: d72806116c374c2428c2048c4c07ad34, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11422680, guid: d72806116c374c2428c2048c4c07ad34, type: 2}
-      propertyPath: Borders.Array.data[3]
-      value: 
-      objectReference: {fileID: 21300000, guid: 7c2e1634d2aacdf4a95f5852cc091811,
-        type: 3}
-    - target: {fileID: 11422680, guid: d72806116c374c2428c2048c4c07ad34, type: 2}
-      propertyPath: Borders.Array.data[2]
-      value: 
-      objectReference: {fileID: 21300000, guid: d6723d1ad3918ad4db7f51f1ba39c8d8,
-        type: 3}
-    - target: {fileID: 11422680, guid: d72806116c374c2428c2048c4c07ad34, type: 2}
-      propertyPath: Borders.Array.data[0]
-      value: 
-      objectReference: {fileID: 21300000, guid: 9dc866ccfd3318241bb14bf0e7374c71,
-        type: 3}
-    - target: {fileID: 11422680, guid: d72806116c374c2428c2048c4c07ad34, type: 2}
-      propertyPath: Borders.Array.data[1]
-      value: 
-      objectReference: {fileID: 21300000, guid: 8a0fff78985ea214e91f891e953c6b99,
-        type: 3}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: d72806116c374c2428c2048c4c07ad34, type: 2}
-  m_IsPrefabParent: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1716933283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ce80dbb8fa81364194034c022ced069, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Roulet: {fileID: 1659911329}
+  initialTime: 30
+  timePenalty: 2
+  timeSlider: {fileID: 2037900501}
+  quantityNumber: {fileID: 736941257}
 --- !u!1 &2037900499
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,7 +766,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -280, y: 300}
-  m_SizeDelta: {x: 350, y: 20}
+  m_SizeDelta: {x: 300, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2037900501
 MonoBehaviour:
