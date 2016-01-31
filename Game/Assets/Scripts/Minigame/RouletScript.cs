@@ -159,14 +159,17 @@ public class RouletScript : MonoBehaviour
 
         }
 
-        if (item.IsActive)
-        {
-            item.transform.localScale = endScale;
-        }
-        else
-        {
-            item.transform.localScale = startScale;
-        }
+		if (item) {
+			if (item.IsActive)
+			{
+				item.transform.localScale = endScale;
+			}
+			else
+			{
+				item.transform.localScale = startScale;
+			}
+
+		}
 
     }
 

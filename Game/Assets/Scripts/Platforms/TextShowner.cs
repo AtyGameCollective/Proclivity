@@ -15,7 +15,7 @@ public class TextShowner : MonoBehaviour {
 			message = "One drink to wake up.";
 			break;
 		case 1: 
-			message = "Maybe something can increment minha bebida.";
+			message = "Maybe something can increment my drink.";
 			break;
 		case 2: 
 			message = "I should try anything new...";
