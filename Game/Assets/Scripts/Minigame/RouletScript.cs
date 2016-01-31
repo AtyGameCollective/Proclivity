@@ -88,7 +88,7 @@ public class RouletScript : MonoBehaviour
                 newItemFrame.IsActive = false;
             }
 
-            newItemFrame.onUse += SpinRoulet;
+            newItemFrame.onUse += new ItemFrameScript.onUseEventHandler(SpinRoulet);
             newItemFrame.Item = itemList[i];
 
             newItemFrame.transform.SetParent(transform);
@@ -134,8 +134,14 @@ public class RouletScript : MonoBehaviour
 
     }
 
-    void SpinRoulet(object sender, System.EventArgs e)
+    void SpinRoulet(object sender, bool isOK)
     {
+        if(!isOK)
+        {
+            return;
+        }
+
+
         ItemFrameScript lSender = (ItemFrameScript)sender;
 
         foreach (var item in itemFrameList)
