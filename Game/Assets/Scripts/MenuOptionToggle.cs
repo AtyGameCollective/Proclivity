@@ -19,7 +19,7 @@ public class MenuOptionToggle : MonoBehaviour, IPointerEnterHandler, ISelectHand
 	
 	// Update is called once per frame
 	void Update () {
-	
+		
 	}
 
 	#region IPointerEnterHandler implementation

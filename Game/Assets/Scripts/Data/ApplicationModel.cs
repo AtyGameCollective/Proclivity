@@ -1,7 +1,3 @@
-﻿using UnityEngine;
-using System.Collections;
-
-public class ApplicationModel : MonoBehaviour {
-
+﻿public class ApplicationModel {
 	public static int CurrentLevel { get; set;}
 }
