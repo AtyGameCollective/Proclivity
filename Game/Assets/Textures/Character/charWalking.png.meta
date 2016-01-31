@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 92a633fa3f04f2140829d811693bc4f8
+timeCreated: 1454246924
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: charWalking_0
+    21300002: charWalking_1
+    21300004: charWalking_2
+    21300006: charWalking_3
+    21300008: charWalking_4
+    21300010: charWalking_5
+    21300012: charWalking_6
+    21300014: charWalking_7
+    21300016: charWalking_8
+    21300018: charWalking_9
+    21300020: charWalking_10
+    21300022: charWalking_11
+    21300024: charWalking_12
+    21300026: charWalking_13
+    21300028: charWalking_14
+    21300030: charWalking_15
+    21300032: charWalking_16
+    21300034: charWalking_17
+    21300036: charWalking_18
+    21300038: charWalking_19
+    21300040: charWalking_20
+    21300042: charWalking_21
+    21300044: charWalking_22
+    21300046: charWalking_23
+    21300048: charWalking_24
+    21300050: charWalking_25
+    21300052: charWalking_26
+    21300054: charWalking_27
+    21300056: charWalking_28
+    21300058: charWalking_29
+    21300060: charWalking_30
+    21300062: charWalking_31
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: charWalking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 64
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 130}
+        - {x: -32, y: -130}
+        - {x: 32, y: -130}
+        - {x: 32, y: 122}
+        - {x: 22, y: 130}
+    - name: charWalking_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 540
+        width: 64
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 130}
+        - {x: -32, y: -130}
+        - {x: 32, y: -130}
+        - {x: 32, y: 122}
+        - {x: 22, y: 130}
+    - name: charWalking_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 540
+        width: 64
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 130}
+        - {x: -32, y: -130}
+        - {x: 32, y: -130}
+        - {x: 32, y: 122}
+        - {x: 22, y: 130}
+    - name: charWalking_3
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 540
+        width: 64
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 130}
+        - {x: -32, y: -130}
+        - {x: 32, y: -130}
+        - {x: 32, y: 122}
+        - {x: 22, y: 130}
+    - name: charWalking_4
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 540
+        width: 69
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: 93}
+        - {x: 29.5, y: 130}
+        - {x: -34.5, y: 130}
+        - {x: -34.5, y: -42}
+        - {x: -28.5, y: -54}
+        - {x: -32.5, y: -120}
+        - {x: -31.5, y: -130}
+        - {x: 3.5, y: -130}
+        - {x: 11.5, y: -128}
+        - {x: 13.5, y: -126}
+        - {x: 34.5, y: -84}
+    - name: charWalking_5
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 540
+        width: 69
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: 93}
+        - {x: 29.5, y: 130}
+        - {x: -34.5, y: 130}
+        - {x: -34.5, y: -42}
+        - {x: -28.5, y: -54}
+        - {x: -32.5, y: -120}
+        - {x: -31.5, y: -130}
+        - {x: 3.5, y: -130}
+        - {x: 11.5, y: -128}
+        - {x: 13.5, y: -126}
+        - {x: 34.5, y: -84}
+    - name: charWalking_6
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 540
+        width: 69
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: 93}
+        - {x: 29.5, y: 130}
+        - {x: -34.5, y: 130}
+        - {x: -34.5, y: -42}
+        - {x: -28.5, y: -54}
+        - {x: -32.5, y: -120}
+        - {x: -31.5, y: -130}
+        - {x: 3.5, y: -130}
+        - {x: 11.5, y: -128}
+        - {x: 13.5, y: -126}
+        - {x: 34.5, y: -84}
+    - name: charWalking_7
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 540
+        width: 69
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: 93}
+        - {x: 29.5, y: 130}
+        - {x: -34.5, y: 130}
+        - {x: -34.5, y: -42}
+        - {x: -28.5, y: -54}
+        - {x: -32.5, y: -120}
+        - {x: -31.5, y: -130}
+        - {x: 3.5, y: -130}
+        - {x: 11.5, y: -128}
+        - {x: 13.5, y: -126}
+        - {x: 34.5, y: -84}
+    - name: charWalking_8
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 540
+        width: 69
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 130}
+        - {x: -34.5, y: -130}
+        - {x: 9.5, y: -130}
+        - {x: 13.5, y: -129}
+        - {x: 34.5, y: -107}
+        - {x: 34.5, y: 101}
+        - {x: 26.5, y: 130}
+    - name: charWalking_9
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 540
+        width: 69
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 130}
+        - {x: -34.5, y: -130}
+        - {x: 9.5, y: -130}
+        - {x: 13.5, y: -129}
+        - {x: 34.5, y: -107}
+        - {x: 34.5, y: 101}
+        - {x: 26.5, y: 130}
+    - name: charWalking_10
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 540
+        width: 69
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 130}
+        - {x: -34.5, y: -130}
+        - {x: 9.5, y: -130}
+        - {x: 13.5, y: -129}
+        - {x: 34.5, y: -107}
+        - {x: 34.5, y: 101}
+        - {x: 26.5, y: 130}
+    - name: charWalking_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 69
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 130}
+        - {x: -34.5, y: -130}
+        - {x: 9.5, y: -130}
+        - {x: 13.5, y: -129}
+        - {x: 34.5, y: -107}
+        - {x: 34.5, y: 101}
+        - {x: 26.5, y: 130}
+    - name: charWalking_12
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 270
+        width: 78
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: -130}
+        - {x: 21, y: -130}
+        - {x: 39, y: -114}
+        - {x: 39, y: 76}
+        - {x: 12, y: 130}
+        - {x: -36, y: 130}
+        - {x: -39, y: 89}
+    - name: charWalking_13
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 270
+        width: 78
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: -130}
+        - {x: 21, y: -130}
+        - {x: 39, y: -114}
+        - {x: 39, y: 76}
+        - {x: 12, y: 130}
+        - {x: -36, y: 130}
+        - {x: -39, y: 89}
+    - name: charWalking_14
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 270
+        width: 78
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: -130}
+        - {x: 21, y: -130}
+        - {x: 39, y: -114}
+        - {x: 39, y: 76}
+        - {x: 12, y: 130}
+        - {x: -36, y: 130}
+        - {x: -39, y: 89}
+    - name: charWalking_15
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 270
+        width: 78
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: -130}
+        - {x: 21, y: -130}
+        - {x: 39, y: -114}
+        - {x: 39, y: 76}
+        - {x: 12, y: 130}
+        - {x: -36, y: 130}
+        - {x: -39, y: 89}
+    - name: charWalking_16
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 270
+        width: 78
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 130}
+        - {x: -39, y: 62}
+        - {x: -39, y: -49}
+        - {x: -30, y: -54}
+        - {x: -33, y: -120}
+        - {x: -32, y: -130}
+        - {x: 3, y: -130}
+        - {x: 11, y: -128}
+        - {x: 39, y: -130}
+        - {x: 39, y: 130}
+    - name: charWalking_17
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 270
+        width: 78
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 130}
+        - {x: -39, y: 62}
+        - {x: -39, y: -49}
+        - {x: -30, y: -54}
+        - {x: -33, y: -120}
+        - {x: -32, y: -130}
+        - {x: 3, y: -130}
+        - {x: 11, y: -128}
+        - {x: 39, y: -130}
+        - {x: 39, y: 130}
+    - name: charWalking_18
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 270
+        width: 78
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 130}
+        - {x: -39, y: 62}
+        - {x: -39, y: -49}
+        - {x: -30, y: -54}
+        - {x: -33, y: -120}
+        - {x: -32, y: -130}
+        - {x: 3, y: -130}
+        - {x: 11, y: -128}
+        - {x: 39, y: -130}
+        - {x: 39, y: 130}
+    - name: charWalking_19
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 270
+        width: 78
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 130}
+        - {x: -39, y: 62}
+        - {x: -39, y: -49}
+        - {x: -30, y: -54}
+        - {x: -33, y: -120}
+        - {x: -32, y: -130}
+        - {x: 3, y: -130}
+        - {x: 11, y: -128}
+        - {x: 39, y: -130}
+        - {x: 39, y: 130}
+    - name: charWalking_20
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 270
+        width: 69
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 130}
+        - {x: -34.5, y: -130}
+        - {x: 9.5, y: -130}
+        - {x: 13.5, y: -129}
+        - {x: 34.5, y: -107}
+        - {x: 34.5, y: 101}
+        - {x: 26.5, y: 130}
+    - name: charWalking_21
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 270
+        width: 69
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 130}
+        - {x: -34.5, y: -130}
+        - {x: 9.5, y: -130}
+        - {x: 13.5, y: -129}
+        - {x: 34.5, y: -107}
+        - {x: 34.5, y: 101}
+        - {x: 26.5, y: 130}
+    - name: charWalking_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 69
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 130}
+        - {x: -34.5, y: -130}
+        - {x: 9.5, y: -130}
+        - {x: 13.5, y: -129}
+        - {x: 34.5, y: -107}
+        - {x: 34.5, y: 101}
+        - {x: 26.5, y: 130}
+    - name: charWalking_23
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 69
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 130}
+        - {x: -34.5, y: -130}
+        - {x: 9.5, y: -130}
+        - {x: 13.5, y: -129}
+        - {x: 34.5, y: -107}
+        - {x: 34.5, y: 101}
+        - {x: 26.5, y: 130}
+    - name: charWalking_24
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 69
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 89}
+        - {x: 13.5, y: 121}
+        - {x: 10.5, y: 127}
+        - {x: 8.5, y: 130}
+        - {x: -34.5, y: 130}
+        - {x: -34.5, y: -130}
+        - {x: 9.5, y: -130}
+        - {x: 10.5, y: -124}
+        - {x: 34.5, y: -58}
+        - {x: 34.5, y: -12}
+    - name: charWalking_25
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 69
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 89}
+        - {x: 13.5, y: 121}
+        - {x: 10.5, y: 127}
+        - {x: 8.5, y: 130}
+        - {x: -34.5, y: 130}
+        - {x: -34.5, y: -130}
+        - {x: 9.5, y: -130}
+        - {x: 10.5, y: -124}
+        - {x: 34.5, y: -58}
+        - {x: 34.5, y: -12}
+    - name: charWalking_26
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 69
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 89}
+        - {x: 13.5, y: 121}
+        - {x: 10.5, y: 127}
+        - {x: 8.5, y: 130}
+        - {x: -34.5, y: 130}
+        - {x: -34.5, y: -130}
+        - {x: 9.5, y: -130}
+        - {x: 10.5, y: -124}
+        - {x: 34.5, y: -58}
+        - {x: 34.5, y: -12}
+    - name: charWalking_27
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 69
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 89}
+        - {x: 13.5, y: 121}
+        - {x: 10.5, y: 127}
+        - {x: 8.5, y: 130}
+        - {x: -34.5, y: 130}
+        - {x: -34.5, y: -130}
+        - {x: 9.5, y: -130}
+        - {x: 10.5, y: -124}
+        - {x: 34.5, y: -58}
+        - {x: 34.5, y: -12}
+    - name: charWalking_28
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 0
+        width: 59
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 130}
+        - {x: -29.5, y: -130}
+        - {x: 29.5, y: -130}
+        - {x: 29.5, y: 124}
+        - {x: 21.5, y: 130}
+    - name: charWalking_29
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 0
+        width: 59
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 130}
+        - {x: -29.5, y: -130}
+        - {x: 29.5, y: -130}
+        - {x: 29.5, y: 124}
+        - {x: 21.5, y: 130}
+    - name: charWalking_30
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 0
+        width: 59
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 130}
+        - {x: -29.5, y: -130}
+        - {x: 29.5, y: -130}
+        - {x: 29.5, y: 124}
+        - {x: 21.5, y: 130}
+    - name: charWalking_31
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 0
+        width: 59
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 130}
+        - {x: -29.5, y: -130}
+        - {x: 29.5, y: -130}
+        - {x: 29.5, y: 124}
+        - {x: 21.5, y: 130}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

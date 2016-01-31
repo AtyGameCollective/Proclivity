@@ -9,7 +9,7 @@ public class ColliderToggle : MonoBehaviour {
 	[SerializeField]
 	bool upIsStraight = true;
 	float alphaOn = 1f;
-	float alphaOff = 0.4f;
+	float alphaOff = 0.1f;
 	[SerializeField]
 	bool active;
 
@@ -59,7 +59,7 @@ public class ColliderToggle : MonoBehaviour {
 		float totalTime = 0.25f;
 
 		Color color = colliderSprites [0].color;
-		Color finalColor = new Color (color.r, color.g, color.b, active ? alphaOn : alphaOff);
+		Color finalColor = new Color (color.r, color.g, color.b, upIsStraight && active ||  !upIsStraight && !active ? alphaOn : alphaOff);
 		while (time < totalTime) {
 			for (int i = 0; i < colliderSprites.Length; i++) {
 				colliderSprites [i].color = Color.Lerp(color, finalColor, time/totalTime);

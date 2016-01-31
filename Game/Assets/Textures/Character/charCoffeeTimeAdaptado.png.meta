@@ -1,0 +1,2157 @@
+fileFormatVersion: 2
+guid: b5d87959820f93b46941d44b9f68f8b4
+timeCreated: 1454247843
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: charCoffeeTimeAdaptado_0
+    21300002: charCoffeeTimeAdaptado_1
+    21300004: charCoffeeTimeAdaptado_2
+    21300006: charCoffeeTimeAdaptado_3
+    21300008: charCoffeeTimeAdaptado_4
+    21300010: charCoffeeTimeAdaptado_5
+    21300012: charCoffeeTimeAdaptado_6
+    21300014: charCoffeeTimeAdaptado_7
+    21300016: charCoffeeTimeAdaptado_8
+    21300018: charCoffeeTimeAdaptado_9
+    21300020: charCoffeeTimeAdaptado_10
+    21300022: charCoffeeTimeAdaptado_11
+    21300024: charCoffeeTimeAdaptado_12
+    21300026: charCoffeeTimeAdaptado_13
+    21300028: charCoffeeTimeAdaptado_14
+    21300030: charCoffeeTimeAdaptado_15
+    21300032: charCoffeeTimeAdaptado_16
+    21300034: charCoffeeTimeAdaptado_17
+    21300036: charCoffeeTimeAdaptado_18
+    21300038: charCoffeeTimeAdaptado_19
+    21300040: charCoffeeTimeAdaptado_20
+    21300042: charCoffeeTimeAdaptado_21
+    21300044: charCoffeeTimeAdaptado_22
+    21300046: charCoffeeTimeAdaptado_23
+    21300048: charCoffeeTimeAdaptado_24
+    21300050: charCoffeeTimeAdaptado_25
+    21300052: charCoffeeTimeAdaptado_26
+    21300054: charCoffeeTimeAdaptado_27
+    21300056: charCoffeeTimeAdaptado_28
+    21300058: charCoffeeTimeAdaptado_29
+    21300060: charCoffeeTimeAdaptado_30
+    21300062: charCoffeeTimeAdaptado_31
+    21300064: charCoffeeTimeAdaptado_32
+    21300066: charCoffeeTimeAdaptado_33
+    21300068: charCoffeeTimeAdaptado_34
+    21300070: charCoffeeTimeAdaptado_35
+    21300072: charCoffeeTimeAdaptado_36
+    21300074: charCoffeeTimeAdaptado_37
+    21300076: charCoffeeTimeAdaptado_38
+    21300078: charCoffeeTimeAdaptado_39
+    21300080: charCoffeeTimeAdaptado_40
+    21300082: charCoffeeTimeAdaptado_41
+    21300084: charCoffeeTimeAdaptado_42
+    21300086: charCoffeeTimeAdaptado_43
+    21300088: charCoffeeTimeAdaptado_44
+    21300090: charCoffeeTimeAdaptado_45
+    21300092: charCoffeeTimeAdaptado_46
+    21300094: charCoffeeTimeAdaptado_47
+    21300096: charCoffeeTimeAdaptado_48
+    21300098: charCoffeeTimeAdaptado_49
+    21300100: charCoffeeTimeAdaptado_50
+    21300102: charCoffeeTimeAdaptado_51
+    21300104: charCoffeeTimeAdaptado_52
+    21300106: charCoffeeTimeAdaptado_53
+    21300108: charCoffeeTimeAdaptado_54
+    21300110: charCoffeeTimeAdaptado_55
+    21300112: charCoffeeTimeAdaptado_56
+    21300114: charCoffeeTimeAdaptado_57
+    21300116: charCoffeeTimeAdaptado_58
+    21300118: charCoffeeTimeAdaptado_59
+    21300120: charCoffeeTimeAdaptado_60
+    21300122: charCoffeeTimeAdaptado_61
+    21300124: charCoffeeTimeAdaptado_62
+    21300126: charCoffeeTimeAdaptado_63
+    21300128: charCoffeeTimeAdaptado_64
+    21300130: charCoffeeTimeAdaptado_65
+    21300132: charCoffeeTimeAdaptado_66
+    21300134: charCoffeeTimeAdaptado_67
+    21300136: charCoffeeTimeAdaptado_68
+    21300138: charCoffeeTimeAdaptado_69
+    21300140: charCoffeeTimeAdaptado_70
+    21300142: charCoffeeTimeAdaptado_71
+    21300144: charCoffeeTimeAdaptado_72
+    21300146: charCoffeeTimeAdaptado_73
+    21300148: charCoffeeTimeAdaptado_74
+    21300150: charCoffeeTimeAdaptado_75
+    21300152: charCoffeeTimeAdaptado_76
+    21300154: charCoffeeTimeAdaptado_77
+    21300156: charCoffeeTimeAdaptado_78
+    21300158: charCoffeeTimeAdaptado_79
+    21300160: charCoffeeTimeAdaptado_80
+    21300162: charCoffeeTimeAdaptado_81
+    21300164: charCoffeeTimeAdaptado_82
+    21300166: charCoffeeTimeAdaptado_83
+    21300168: charCoffeeTimeAdaptado_84
+    21300170: charCoffeeTimeAdaptado_85
+    21300172: charCoffeeTimeAdaptado_86
+    21300174: charCoffeeTimeAdaptado_87
+    21300176: charCoffeeTimeAdaptado_88
+    21300178: charCoffeeTimeAdaptado_89
+    21300180: charCoffeeTimeAdaptado_90
+    21300182: charCoffeeTimeAdaptado_91
+    21300184: charCoffeeTimeAdaptado_92
+    21300186: charCoffeeTimeAdaptado_93
+    21300188: charCoffeeTimeAdaptado_94
+    21300190: charCoffeeTimeAdaptado_95
+    21300192: charCoffeeTimeAdaptado_96
+    21300194: charCoffeeTimeAdaptado_97
+    21300196: charCoffeeTimeAdaptado_98
+    21300198: charCoffeeTimeAdaptado_99
+    21300200: charCoffeeTimeAdaptado_100
+    21300202: charCoffeeTimeAdaptado_101
+    21300204: charCoffeeTimeAdaptado_102
+    21300206: charCoffeeTimeAdaptado_103
+    21300208: charCoffeeTimeAdaptado_104
+    21300210: charCoffeeTimeAdaptado_105
+    21300212: charCoffeeTimeAdaptado_106
+    21300214: charCoffeeTimeAdaptado_107
+    21300216: charCoffeeTimeAdaptado_108
+    21300218: charCoffeeTimeAdaptado_109
+    21300220: charCoffeeTimeAdaptado_110
+    21300222: charCoffeeTimeAdaptado_111
+    21300224: charCoffeeTimeAdaptado_112
+    21300226: charCoffeeTimeAdaptado_113
+    21300228: charCoffeeTimeAdaptado_114
+    21300230: charCoffeeTimeAdaptado_115
+    21300232: charCoffeeTimeAdaptado_116
+    21300234: charCoffeeTimeAdaptado_117
+    21300236: charCoffeeTimeAdaptado_118
+    21300238: charCoffeeTimeAdaptado_119
+    21300240: charCoffeeTimeAdaptado_120
+    21300242: charCoffeeTimeAdaptado_121
+    21300244: charCoffeeTimeAdaptado_122
+    21300246: charCoffeeTimeAdaptado_123
+    21300248: charCoffeeTimeAdaptado_124
+    21300250: charCoffeeTimeAdaptado_125
+    21300252: charCoffeeTimeAdaptado_126
+    21300254: charCoffeeTimeAdaptado_127
+    21300256: charCoffeeTimeAdaptado_128
+    21300258: charCoffeeTimeAdaptado_129
+    21300260: charCoffeeTimeAdaptado_130
+    21300262: charCoffeeTimeAdaptado_131
+    21300264: charCoffeeTimeAdaptado_132
+    21300266: charCoffeeTimeAdaptado_133
+    21300268: charCoffeeTimeAdaptado_134
+    21300270: charCoffeeTimeAdaptado_135
+    21300272: charCoffeeTimeAdaptado_136
+    21300274: charCoffeeTimeAdaptado_137
+    21300276: charCoffeeTimeAdaptado_138
+    21300278: charCoffeeTimeAdaptado_139
+    21300280: charCoffeeTimeAdaptado_140
+    21300282: charCoffeeTimeAdaptado_141
+    21300284: charCoffeeTimeAdaptado_142
+    21300286: charCoffeeTimeAdaptado_143
+    21300288: charCoffeeTimeAdaptado_144
+    21300290: charCoffeeTimeAdaptado_145
+    21300292: charCoffeeTimeAdaptado_146
+    21300294: charCoffeeTimeAdaptado_147
+    21300296: charCoffeeTimeAdaptado_148
+    21300298: charCoffeeTimeAdaptado_149
+    21300300: charCoffeeTimeAdaptado_150
+    21300302: charCoffeeTimeAdaptado_151
+    21300304: charCoffeeTimeAdaptado_152
+    21300306: charCoffeeTimeAdaptado_153
+    21300308: charCoffeeTimeAdaptado_154
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: charCoffeeTimeAdaptado_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1080
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1080
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_3
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1080
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_4
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1080
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 130}
+        - {x: -38.5, y: 122}
+        - {x: -38.5, y: -54}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -108}
+        - {x: 38.5, y: 74}
+        - {x: 29.5, y: 130}
+    - name: charCoffeeTimeAdaptado_5
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1080
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 130}
+        - {x: -38.5, y: 122}
+        - {x: -38.5, y: -54}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -108}
+        - {x: 38.5, y: 74}
+        - {x: 29.5, y: 130}
+    - name: charCoffeeTimeAdaptado_6
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1080
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 130}
+        - {x: -38.5, y: 122}
+        - {x: -38.5, y: -54}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -108}
+        - {x: 38.5, y: 74}
+        - {x: 29.5, y: 130}
+    - name: charCoffeeTimeAdaptado_7
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1080
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 130}
+        - {x: -38.5, y: 122}
+        - {x: -38.5, y: -54}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -108}
+        - {x: 38.5, y: 74}
+        - {x: 29.5, y: 130}
+    - name: charCoffeeTimeAdaptado_8
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1080
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 130}
+        - {x: -38.5, y: 122}
+        - {x: -38.5, y: -54}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -108}
+        - {x: 38.5, y: 74}
+        - {x: 29.5, y: 130}
+    - name: charCoffeeTimeAdaptado_9
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1080
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_10
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1080
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_11
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1080
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_12
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1080
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_13
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 1080
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_14
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 1080
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_15
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1080
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_16
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1080
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_17
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1080
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_18
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1080
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_19
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 1080
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_20
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1080
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_21
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1080
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_22
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 1080
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 810
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_24
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 810
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_25
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 810
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_26
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 810
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_27
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 810
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_28
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 810
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_29
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 810
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_30
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 810
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_31
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 810
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_32
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 810
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_33
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 810
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_34
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 810
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_35
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 810
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_36
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 810
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_37
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 810
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_38
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 810
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_39
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 810
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_40
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 810
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_41
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 810
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_42
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 810
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_43
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 810
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_44
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 810
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_45
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 810
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_47
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 540
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_48
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 540
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_49
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 540
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_50
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 540
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_51
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 540
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_52
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 540
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_53
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 540
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 130}
+        - {x: -38.5, y: 121}
+        - {x: -38.5, y: -69}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -111}
+        - {x: 38.5, y: 100}
+        - {x: 33.5, y: 130}
+    - name: charCoffeeTimeAdaptado_54
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 540
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 130}
+        - {x: -38.5, y: 122}
+        - {x: -38.5, y: -54}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -108}
+        - {x: 38.5, y: 74}
+        - {x: 29.5, y: 130}
+    - name: charCoffeeTimeAdaptado_55
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 540
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 130}
+        - {x: -38.5, y: 122}
+        - {x: -38.5, y: -54}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -108}
+        - {x: 38.5, y: 74}
+        - {x: 29.5, y: 130}
+    - name: charCoffeeTimeAdaptado_56
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 540
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 130}
+        - {x: -38.5, y: 122}
+        - {x: -38.5, y: -54}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -108}
+        - {x: 38.5, y: 74}
+        - {x: 29.5, y: 130}
+    - name: charCoffeeTimeAdaptado_57
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 540
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 130}
+        - {x: -38.5, y: 122}
+        - {x: -38.5, y: -54}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -108}
+        - {x: 38.5, y: 74}
+        - {x: 29.5, y: 130}
+    - name: charCoffeeTimeAdaptado_58
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 540
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 130}
+        - {x: -38.5, y: 122}
+        - {x: -38.5, y: -54}
+        - {x: -27.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -108}
+        - {x: 38.5, y: 74}
+        - {x: 29.5, y: 130}
+    - name: charCoffeeTimeAdaptado_59
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 540
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_60
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 540
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_61
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 540
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_62
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 540
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_63
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 540
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_64
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 540
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_65
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 540
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_66
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 540
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_67
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 540
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_68
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 540
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_70
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 270
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_71
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 270
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_72
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 270
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_73
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 270
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_74
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 270
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_75
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 270
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_76
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 270
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_77
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 270
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_78
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 270
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_79
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 270
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_80
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 270
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_81
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 270
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_82
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 270
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_83
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 270
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_84
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 270
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_85
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 270
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_86
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 270
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_87
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 270
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_88
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 270
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_89
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 270
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_90
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 270
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_91
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 270
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_93
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_94
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_95
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_96
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_97
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_98
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    - name: charCoffeeTimeAdaptado_99
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 0
+        width: 77
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -38.5, y: 119}
+        - {x: -38.5, y: -128}
+        - {x: -30.5, y: -130}
+        - {x: 31.5, y: -130}
+        - {x: 38.5, y: -90}
+        - {x: 38.5, y: 34}
+        - {x: 33.5, y: 81}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
