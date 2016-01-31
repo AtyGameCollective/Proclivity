@@ -1,0 +1,39 @@
+﻿using UnityEngine;
+using System.Collections;
+using UnityEngine.UI;
+
+public class TextShowner : MonoBehaviour {
+	[SerializeField]
+	Text text;
+	[SerializeField]
+	Animator animator;
+	// Use this for initialization
+	void Start () {
+		string message = "";
+		switch (ApplicationModel.CurrentLevel) {
+		case 0: 
+			message = "One drink to wake up.";
+			break;
+		case 1: 
+			message = "Maybe something can increment minha bebida.";
+			break;
+		case 2: 
+			message = "I should try anything new...";
+			break;
+		default:
+			message = "I'm tired of this routine.";
+			break;
+		}
+		StartCoroutine(ShowMessage(message));
+	}
+	
+	IEnumerator ShowMessage(string message)
+	{
+		text.text = message;
+		animator.SetBool ("Show", true);
+
+		yield return new WaitForSeconds (5);
+
+		animator.SetBool ("Show", false);
+	}
+}
