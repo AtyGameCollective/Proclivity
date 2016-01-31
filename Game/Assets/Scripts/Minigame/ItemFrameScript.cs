@@ -15,7 +15,7 @@ public class ItemFrameScript : MonoBehaviour
         Y
     }
 
-    private string[] buttonsNames = { "Fire1", "Fire2", "Fire3", "Jump" };
+    private string[] buttonsNames = { "Green", "Red", "Blue", "Yellow" };
 
     public delegate void onUseEventHandler(ItemFrameScript item, bool idOK);
     public event onUseEventHandler onUse;
@@ -60,6 +60,12 @@ public class ItemFrameScript : MonoBehaviour
 
     [SerializeField]
     private Sprite[] Borders;
+
+    [SerializeField]
+    private Sprite[] Icons;
+
+    [SerializeField]
+    private SpriteRenderer Icon;
 
     void Awake()
     {
@@ -107,6 +113,11 @@ public class ItemFrameScript : MonoBehaviour
         actualBorder.sprite = Borders[(int)button];
     }
 
+    public void ChangeIcon()
+    {
+        Icon.sprite = Icons[(int)(UnityEngine.Random.value * Icons.Length)];
+    }
+    
     public void ChangeButton(buttons newButton)
     {
         this.button = newButton;
