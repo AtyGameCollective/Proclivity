@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 
 public class MenuOptionToggle : MonoBehaviour, IPointerEnterHandler, ISelectHandler, IPointerClickHandler {
@@ -9,12 +10,12 @@ public class MenuOptionToggle : MonoBehaviour, IPointerEnterHandler, ISelectHand
 	Toggle toggle;
 
 	[SerializeField]
-	EventTrigger onClickEvent;
-
+	UnityEvent onClickEvent;
 
 	// Use this for initialization
 	void Start () {
 		toggle = GetComponent<Toggle> ();
+
 	}
 	
 	// Update is called once per frame
@@ -22,11 +23,16 @@ public class MenuOptionToggle : MonoBehaviour, IPointerEnterHandler, ISelectHand
 		
 	}
 
+	public void Select ()
+	{
+		toggle.Select ();
+	}
+
 	#region IPointerEnterHandler implementation
 
 	public void OnPointerEnter (PointerEventData eventData)
 	{
-		toggle.Select ();
+		Select ();
 	}
 
 	#endregion
@@ -45,8 +51,13 @@ public class MenuOptionToggle : MonoBehaviour, IPointerEnterHandler, ISelectHand
 	public void OnPointerClick (PointerEventData eventData)
 	{
 		Debug.Log ("Option Clicked " + name);
-
+		ActivateOption ();
 	}
 
 	#endregion
+
+	public void ActivateOption ()
+	{
+		onClickEvent.Invoke ();
+	}
 }
