@@ -30,6 +30,8 @@ public class TextShowner : MonoBehaviour {
 	IEnumerator ShowMessage(string message)
 	{
 		text.text = message;
+
+		yield return new WaitForSeconds (3);
 		animator.SetBool ("Show", true);
 
 		yield return new WaitForSeconds (5);
