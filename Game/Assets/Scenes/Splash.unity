@@ -828,6 +828,7 @@ MonoBehaviour:
   options:
   - {fileID: 1748768884}
   - {fileID: 957408517}
+  creditScreen: {fileID: 712144485}
 --- !u!95 &767164291
 Animator:
   serializedVersion: 3

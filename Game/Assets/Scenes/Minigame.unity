@@ -712,7 +712,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Voc\xEA fez caf\xE9!"
+  m_Text: You made coffee!
 --- !u!222 &1046853859
 CanvasRenderer:
   m_ObjectHideFlags: 0

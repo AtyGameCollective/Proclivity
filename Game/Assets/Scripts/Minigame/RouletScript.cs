@@ -154,7 +154,8 @@ public class RouletScript : MonoBehaviour
         {
             time += Time.deltaTime;
             yield return null;
-            item.transform.localScale = Vector3.Lerp(startScale, endScale, time / totalTime);
+			if(item)
+		        item.transform.localScale = Vector3.Lerp(startScale, endScale, time / totalTime);
 
         }
 
