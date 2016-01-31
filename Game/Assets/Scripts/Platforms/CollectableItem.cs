@@ -55,6 +55,7 @@ public class CollectableItem : MonoBehaviour {
 	IEnumerator CollectItemAnimation()
 	{
 		yield return null;
+		GetComponent<AudioSource> ().Play ();
 		Debug.Log (gameObject.name + " Collected");
 		float time = 0;
 		float totalTime = 1f;
