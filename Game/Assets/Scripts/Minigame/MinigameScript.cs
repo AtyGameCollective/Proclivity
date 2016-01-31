@@ -24,6 +24,9 @@ public class MinigameScript : MonoBehaviour
     private Text quantityNumber;
 
     [SerializeField]
+    private Text coffeMessage;
+
+    [SerializeField]
     private SpriteRenderer demonho;
 
     [SerializeField]
@@ -120,10 +123,12 @@ public class MinigameScript : MonoBehaviour
         if (isOK)
         {
             itemsCount--;
+            rightSoud.Play();
         }
         else
         {
             actualTime -= timePenalty;
+            errorSound.Play();
         }
 
         UpdateHud();
@@ -199,6 +204,10 @@ public class MinigameScript : MonoBehaviour
 
         demonho.gameObject.SetActive(false);
 
+        coffeMessage.gameObject.SetActive(true);
+
+        victorySound.Play();
+
         Finish();
     }
 
@@ -217,6 +226,9 @@ public class MinigameScript : MonoBehaviour
     IEnumerator LooseAnimation()
     {
         yield return null;
+
+        looseSound.Play();
+
         Finish();
     }
 
