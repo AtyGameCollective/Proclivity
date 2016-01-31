@@ -21,7 +21,7 @@ public class PlayerInventory : MonoBehaviour {
 
 	void OpenDoor()
 	{
-		if (ItemsCollectedCount == itemsNeeded) {
+		if (ItemsCollectedCount == itemsNeeded || ItemsCollectedCount >= 4) {
 			doorCollider.enabled = true;
 		}
 	}
