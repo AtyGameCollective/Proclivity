@@ -29,6 +29,18 @@ public class MinigameScript : MonoBehaviour
     [SerializeField]
     private BallonScript ballons;
 
+    [SerializeField]
+    private AudioSource errorSound;
+
+    [SerializeField]
+    private AudioSource rightSoud;
+
+    [SerializeField]
+    private AudioSource victorySound;
+
+    [SerializeField]
+    private AudioSource looseSound;
+
     private float actualTime;
 
     private int itemsCount;
@@ -43,11 +55,19 @@ public class MinigameScript : MonoBehaviour
 
     void Awake()
     {
+        int initialItens = 0;
+        int baseItenCount = 8;
+
+        int baseInitialTime = 5;
+        int baseTime = 5;
+
+        int level = ApplicationModel.CurrentLevel + 1;
+
         //---------------------
-        //FAKE Itens
-        int fakeQuantity = 5;
-        itemList = new Item[fakeQuantity];
-        for (int i = 0; i < fakeQuantity; i++)
+
+        int itemQuantity = initialItens + baseItenCount * level;
+        itemList = new Item[itemQuantity];
+        for (int i = 0; i < itemQuantity; i++)
         {
             itemList[i] = new Item()
             {
@@ -57,6 +77,8 @@ public class MinigameScript : MonoBehaviour
         }
 
         //--------------------
+
+        initialTime = baseInitialTime + baseTime * level;
 
         actualTime = initialTime;
         itemsCount = itemList.Length;
@@ -79,15 +101,17 @@ public class MinigameScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        actualTime -= Time.deltaTime;
-        UpdateHud();
-
         if (!isPlaying)
         {
             if (Input.GetButtonDown("Fire1"))
             {
                 UnityEngine.SceneManagement.SceneManager.LoadScene("House");
             }
+        }
+        else
+        {
+            actualTime -= Time.deltaTime;
+            UpdateHud();
         }
     }
 
