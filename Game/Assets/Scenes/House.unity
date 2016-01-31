@@ -294,6 +294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03ca9f2b320420b4caaac37219f20f7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  doorCollider: {fileID: 0}
 --- !u!4 &35050220 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
@@ -606,6 +607,60 @@ SpriteRenderer:
   m_PrefabParentObject: {fileID: 21200002, guid: 674c23718320e9d498cdad2a5bcd576a,
     type: 2}
   m_PrefabInternal: {fileID: 1986973848}
+--- !u!1 &301313752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 301313753}
+  - 61: {fileID: 301313755}
+  - 114: {fileID: 301313754}
+  m_Layer: 0
+  m_Name: Door Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &301313753
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 301313752}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 17.92, y: 2.87, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1493382054}
+  m_RootOrder: 10
+--- !u!114 &301313754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 301313752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c6cb48768b683d42ac9edada092f867, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &301313755
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 301313752}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.64, y: 3.01}
 --- !u!1 &309842632
 GameObject:
   m_ObjectHideFlags: 0
@@ -3131,6 +3186,7 @@ Transform:
   - {fileID: 339147830}
   - {fileID: 1003796882}
   - {fileID: 1266112393}
+  - {fileID: 301313753}
   m_Father: {fileID: 1295882094}
   m_RootOrder: 1
 --- !u!1 &1501825862
