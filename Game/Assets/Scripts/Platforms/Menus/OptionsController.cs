@@ -5,10 +5,16 @@ public class OptionsController : MonoBehaviour {
 	[SerializeField]
 	MenuOptionToggle [] options;
 
+    [SerializeField]
+    private SpriteRenderer creditScreen;
+
 	int index = 0;
 	float delay  = 1;
 	void Update()
 	{
+        if (creditScreen.gameObject.active)
+            return;
+
 		delay -= Time.deltaTime;
 		if (delay < 0) {
 			float vertical = Input.GetAxis ("Vertical");
