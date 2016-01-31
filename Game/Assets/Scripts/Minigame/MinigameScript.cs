@@ -81,6 +81,14 @@ public class MinigameScript : MonoBehaviour
     {
         actualTime -= Time.deltaTime;
         UpdateHud();
+
+        if (!isPlaying)
+        {
+            if (Input.GetButtonDown("Fire1"))
+            {
+                UnityEngine.SceneManagement.SceneManager.LoadScene("House");
+            }
+        }
     }
 
     private void RouletSpined(RouletScript roulet, bool isOK)
@@ -119,6 +127,7 @@ public class MinigameScript : MonoBehaviour
     private void Victory()
     {
         ballons.ShowBallon(true);
+        ApplicationModel.CurrentLevel++;
         StartCoroutine(WinAnimation());
     }
 
