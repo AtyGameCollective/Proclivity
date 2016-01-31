@@ -17,7 +17,8 @@ public class ItemFrameScript : MonoBehaviour
 
     private string[] buttonsNames = { "Fire1", "Fire2", "Fire3", "Jump" };
 
-    public event EventHandler onUse;
+    public delegate void onUseEventHandler(ItemFrameScript item, bool idOK);
+    public event onUseEventHandler onUse;
 
     private SpriteRenderer actualBorder;
 
@@ -81,7 +82,22 @@ public class ItemFrameScript : MonoBehaviour
                 //Debug.Log(buttonsNames[(int)button]);
 
                 if (onUse != null)
-                    onUse(this, EventArgs.Empty);
+                    onUse(this, true);
+
+                return;
+            }
+            else
+            {
+                for (int i = 0; i < buttonsNames.Length; i++)
+                {
+                    if (Input.GetButtonDown(buttonsNames[i]))
+                    {
+                        if (onUse != null)
+                            onUse(this, false);
+
+                        return;
+                    };
+                }
             }
         }
     }

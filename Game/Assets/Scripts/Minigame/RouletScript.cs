@@ -22,6 +22,7 @@ public class RouletScript : MonoBehaviour
     [SerializeField]
     private int turnSpeed = 2;
 
+    [SerializeField]
     private int initialAngle = 60;
 
     private ItemFrameScript[] itemFrameList;
@@ -72,7 +73,7 @@ public class RouletScript : MonoBehaviour
         for (int i = 0; i < actualPool; i++)
         {
             ItemFrameScript newItemFrame = Instantiate(baseItemFrame);
-            newItemFrame.transform.position = GetAngularPosition(i);
+            newItemFrame.transform.localPosition = GetAngularPosition(i);
             newItemFrame.Button = (ItemFrameScript.buttons)(Random.value * 4);
             newItemFrame.realPosition = actualPool;
             newItemFrame.position = actualPool;
@@ -87,8 +88,10 @@ public class RouletScript : MonoBehaviour
                 newItemFrame.IsActive = false;
             }
 
-            newItemFrame.onUse += SpinRoulet;
+            newItemFrame.onUse += new ItemFrameScript.onUseEventHandler(SpinRoulet);
             newItemFrame.Item = itemList[i];
+
+            newItemFrame.transform.SetParent(transform);
 
             itemFrameList[i] = newItemFrame;
 
@@ -118,7 +121,7 @@ public class RouletScript : MonoBehaviour
                         item.realPosition = item.position;
                     }
 
-                    item.transform.position = GetAngularPosition(item.realPosition);
+                    item.transform.localPosition = GetAngularPosition(item.realPosition);
                 }
             }
         }
@@ -131,8 +134,14 @@ public class RouletScript : MonoBehaviour
 
     }
 
-    void SpinRoulet(object sender, System.EventArgs e)
+    void SpinRoulet(object sender, bool isOK)
     {
+        if(!isOK)
+        {
+            return;
+        }
+
+
         ItemFrameScript lSender = (ItemFrameScript)sender;
 
         foreach (var item in itemFrameList)
@@ -151,7 +160,7 @@ public class RouletScript : MonoBehaviour
             lSender.ChangeButton((ItemFrameScript.buttons)(Random.value * 4));
             lSender.destinyPosition = actualPool - 1;
             lSender.position = actualPool - 1;
-            lSender.transform.position = GetAngularPosition(lSender.position);
+            lSender.transform.localPosition = GetAngularPosition(lSender.position);
             lSender.IsActive = false;
 
             nextPoolPosition++;

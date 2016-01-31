@@ -7,41 +7,49 @@ public class ColliderToggle : MonoBehaviour {
 	[SerializeField]
 	SpriteRenderer[] colliderSprites;
 	[SerializeField]
-	bool upIsOn = true;
+	bool upIsStraight = true;
 	float alphaOn = 1f;
 	float alphaOff = 0.4f;
+	[SerializeField]
 	bool active;
 
+	public bool Active {
+		get {
+			return active;
+		}
+		set {
+			if (active != value) {
+				collider.enabled = value;
+				StartCoroutine (ChangeAlpha ());
+			}
+			active = value;
+		}
+	}
 
 	void OnEnable()
 	{
-		active = collider.enabled;
-
+		collider.enabled = active;
+		StartCoroutine (ChangeAlpha ());
 	}
 
 
 	void OnTriggerStay2D(Collider2D col)
 	{
 		if (col.tag == "Player" && col.GetType () == typeof(CircleCollider2D)) {
-			if (Input.GetAxis ("Vertical") > 0.5f) {
-				if (active == upIsOn)
-					return;
-				active = upIsOn;
-			} else if (Input.GetAxis ("Vertical") < -0.5f) {
-				if (active == !upIsOn)
-					return;
-				active = !upIsOn;
+			if (upIsStraight) {
+				if (Input.GetAxis ("Vertical") < -0.5f) {
+					Active = false;
+				} else {
+					Active = true;
+				}
 			} else {
-				return;
+				if (Input.GetAxis ("Vertical") > 0.5f) {
+					Active = true;
+				} else {
+					Active = false;
+				}
 			}
-
-			collider.enabled = active;
-			StartCoroutine (ChangeAlpha ());
-//			for (int i = 0; i < colliderSprites.Length; i++) {
-//				colliderSprites [i].color = new Color (1, 1, 1, active ? alphaOn : alphaOff);
-//			}
 		}
-
 	}
 
 
