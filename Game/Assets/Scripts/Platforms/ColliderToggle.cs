@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class ColliderToggle : MonoBehaviour {
 	[SerializeField]
@@ -37,13 +38,13 @@ public class ColliderToggle : MonoBehaviour {
 	{
 		if (col.tag == "Player" && col.GetType () == typeof(CircleCollider2D)) {
 			if (upIsStraight) {
-				if (Input.GetAxis ("Vertical") < -0.5f) {
+				if (CrossPlatformInputManager.GetAxis("Vertical") < -0.5f) {
 					Active = false;
 				} else {
 					Active = true;
 				}
 			} else {
-				if (Input.GetAxis ("Vertical") > 0.5f) {
+				if (CrossPlatformInputManager.GetAxis ("Vertical") > 0.5f) {
 					Active = true;
 				} else {
 					Active = false;
