@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class MinigameScript : MonoBehaviour
 {
@@ -109,7 +110,7 @@ public class MinigameScript : MonoBehaviour
     {
         if (!isPlaying)
         {
-            if (Input.GetButtonDown("Fire1"))
+			if (Input.GetButtonDown("Fire1"))
             {
                 UnityEngine.SceneManagement.SceneManager.LoadScene("House");
             }

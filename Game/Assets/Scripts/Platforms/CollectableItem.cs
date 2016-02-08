@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 
 using System.Collections;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class CollectableItem : MonoBehaviour {
 	Collider2D coll2D;
@@ -38,7 +39,7 @@ public class CollectableItem : MonoBehaviour {
 	void OnTriggerStay2D(Collider2D col)
 	{
 		if (col.tag == "Player") {
-			if (Input.GetButtonDown ("Fire1")) {
+			if (CrossPlatformInputManager.GetButtonDown ("Fire1")) {
 				if (active && playerItemIndex == itemOrder) {
 					active = false;
 				} else {

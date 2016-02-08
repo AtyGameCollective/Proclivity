@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerInventory : MonoBehaviour {
 	List<int> itemsCollected= new List<int>();
@@ -14,7 +15,7 @@ public class PlayerInventory : MonoBehaviour {
 
     void Update()
     {
-        if (Input.GetButtonDown("Cancel"))
+		if (Input.GetButtonDown("Cancel"))
         {
             UnityEngine.SceneManagement.SceneManager.LoadScene("Splash");
         }

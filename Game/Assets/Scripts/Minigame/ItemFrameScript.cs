@@ -2,6 +2,7 @@
 using System.Collections;
 using System.ComponentModel;
 using System;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class ItemFrameScript : MonoBehaviour
 {
@@ -83,7 +84,7 @@ public class ItemFrameScript : MonoBehaviour
     {
         if (isActive)
         {
-            if (Input.GetButtonDown(buttonsNames[(int)button]))
+			if (CrossPlatformInputManager.GetButtonDown(buttonsNames[(int)button]))
             {
                 //Debug.Log(buttonsNames[(int)button]);
 
@@ -96,7 +97,7 @@ public class ItemFrameScript : MonoBehaviour
             {
                 for (int i = 0; i < buttonsNames.Length; i++)
                 {
-                    if (Input.GetButtonDown(buttonsNames[i]))
+					if (CrossPlatformInputManager.GetButtonDown(buttonsNames[i]))
                     {
                         if (onUse != null)
                             onUse(this, false);

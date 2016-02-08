@@ -1,13 +1,18 @@
 fileFormatVersion: 2
 guid: ed0825591f3788846b68165c584e5f66
-timeCreated: 1454259923
+timeCreated: 1454967699
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: "bot\xF5es_2"
+    21300002: "bot\xF5es_1"
+    21300004: "bot\xF5es_3"
+    21300006: "bot\xF5es_4"
+    21300008: "bot\xF5es_0"
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -38,7 +43,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +54,148 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: "bot\xF5es_2"
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 74
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 33}
+        - {x: -25, y: 33}
+        - {x: -32, y: 23}
+        - {x: -32, y: -28}
+        - {x: -18, y: -33}
+        - {x: 20, y: -33}
+        - {x: 21, y: -32}
+        - {x: 32, y: -20}
+        - {x: 32, y: 20}
+    - name: "bot\xF5es_1"
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 138
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 33}
+        - {x: -25, y: 33}
+        - {x: -32, y: 23}
+        - {x: -32, y: -28}
+        - {x: -18, y: -33}
+        - {x: 20, y: -33}
+        - {x: 21, y: -32}
+        - {x: 32, y: -20}
+        - {x: 32, y: 20}
+    - name: "bot\xF5es_3"
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 75
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 32}
+        - {x: -23, y: 32}
+        - {x: -33, y: 17}
+        - {x: -33, y: -20}
+        - {x: -22, y: -32}
+        - {x: 15, y: -32}
+        - {x: 33, y: -18}
+        - {x: 33, y: 15}
+        - {x: 32, y: 21}
+    - name: "bot\xF5es_4"
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 11
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 32}
+        - {x: -33, y: 20}
+        - {x: -33, y: -20}
+        - {x: -21, y: -32}
+        - {x: 21, y: -32}
+        - {x: 33, y: -28}
+        - {x: 33, y: 31}
+        - {x: 31, y: 32}
+    - name: "bot\xF5es_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 220
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -51}
+        - {x: -21, y: -52}
+        - {x: -37, y: -69}
+        - {x: -37, y: -87}
+        - {x: -34, y: -105}
+        - {x: -15, y: -119}
+        - {x: 26, y: -119}
+        - {x: 33, y: -101}
+        - {x: 33, y: -67}
+        - {x: 14, y: -51}
+      - - {x: -88, y: 14}
+        - {x: -103, y: -3}
+        - {x: -103, y: -35}
+        - {x: -92, y: -56}
+        - {x: -58, y: -56}
+        - {x: -35, y: -46}
+        - {x: -35, y: 8}
+        - {x: -51, y: 14}
+      - - {x: 38, y: 13}
+        - {x: 35, y: 10}
+        - {x: 35, y: -46}
+        - {x: 38, y: -55}
+        - {x: 89, y: -55}
+        - {x: 105, y: -40}
+        - {x: 105, y: 2}
+        - {x: 85, y: 13}
+      - - {x: 20, y: 78}
+        - {x: -18, y: 78}
+        - {x: -33, y: 62}
+        - {x: -33, y: 13}
+        - {x: -22, y: 8}
+        - {x: 25, y: 8}
+        - {x: 34, y: 29}
+        - {x: 35, y: 31}
+        - {x: 35, y: 60}
+      - - {x: -50, y: 119}
+        - {x: -51, y: 116}
+        - {x: -51, y: 104}
+        - {x: 1, y: 104}
+        - {x: 1, y: 119}
+      - - {x: 1, y: 119}
+        - {x: 1, y: 104}
+        - {x: 13, y: 104}
+        - {x: 14, y: 105}
+        - {x: 14, y: 116}
+        - {x: 12, y: 119}
+      - - {x: 14, y: 119}
+        - {x: 14, y: 104}
+        - {x: 50, y: 104}
+        - {x: 51, y: 105}
+        - {x: 51, y: 119}
     outline: []
   spritePackingTag: 
   userData: 

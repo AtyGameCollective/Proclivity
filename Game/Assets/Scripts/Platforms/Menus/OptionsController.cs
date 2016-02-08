@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class OptionsController : MonoBehaviour {
 	[SerializeField]
@@ -12,7 +13,7 @@ public class OptionsController : MonoBehaviour {
 	float delay  = 1;
 	void Update()
 	{
-        if (Input.GetButtonDown("Cancel"))
+		if (Input.GetButtonDown("Cancel"))
         {
             Application.Quit();
         }
